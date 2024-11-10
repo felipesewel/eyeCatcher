@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/helpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a la sección de ayuda. Aquí podrás encontrar información sobre cómo usar la aplicación:"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="32dp" />
+
+    <!-- Botón para volver al inicio de sesión -->
+    <TextView
+        android:id="@+id/helpTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:lineSpacingExtra="8dp"
+        android:text="• Una vez iniciada la sesión, active el switch “Estado de alarma”, cuando este se encuentre encendido, la alarma cumplirá con sus funciones.\n\n• En la sección configuración puede ajustar la distancia que la alarma es activada, a su vez puede activar o desactivar las notificaciones de la aplicación.\n\n• Si se requiere cerrar sesión, en la parte inferior de la aplicación se encuentra esta opción."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backToLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/buttonTextColor"
+        app:layout_constraintTop_toBottomOf="@id/helpTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126190459288",
+    "project_id": "eyecatcher-3d199",
+    "storage_bucket": "eyecatcher-3d199.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126190459288:android:bf5809cbc965490678b3ed",
+        "android_client_info": {
+          "package_name": "com.example.eyecatcher3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE4kT-kaPzFRdcdQuwUvZu1oBoWnSKV0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

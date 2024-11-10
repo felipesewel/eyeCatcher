@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#808080</color> <!-- Gris -->
+    <color name="primaryDarkColor">#4F4F4F</color> <!-- Gris oscuro -->
+    <color name="accentColor">#B0B0B0</color> <!-- Gris claro -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Blanco -->
+</resources>
